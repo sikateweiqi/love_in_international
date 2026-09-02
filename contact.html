@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 | VENERA 缘启国际</title>
+  <meta name="description" content="联系 VENERA 缘启国际 —— 预约免费婚恋咨询， offices in Shanghai, Almaty, Singapore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">V</span>
+        <span>
+          <span class="brand-name" data-i18n="brand.name">VENERA 缘启国际</span>
+          <span class="brand-tag" data-i18n="brand.tag">GLOBAL MATCHMAKING</span>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="about.html" data-i18n="nav.about">关于我们</a>
+        <a href="services.html" data-i18n="nav.services">产品服务</a>
+        <a href="contact.html" class="active" data-i18n="nav.contact">联系我们</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" id="langSwitch">
+          <button data-lang="cn" class="active">中</button>
+          <button data-lang="en">EN</button>
+          <button data-lang="ru">RU</button>
+        </div>
+        <a href="contact.html" class="btn btn-primary" data-i18n="nav.cta">免费咨询</a>
+        <button class="nav-toggle" id="navToggle" aria-label="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" data-i18n="ct.eyebrow">联系我们</span>
+      <h1 data-i18n="ct.title">期待与您开启一段对话</h1>
+      <p data-i18n="ct.sub">无论您身在何处，我们的多语种顾问团队随时为您提供支持。留下信息，24 小时内回复。</p>
+    </div>
+  </section>
+
+  <!-- Contact grid -->
+  <section class="section">
+    <div class="container contact-grid">
+
+      <!-- Form -->
+      <div class="form-card reveal">
+        <h3 style="font-size:20px;margin-bottom:22px" data-i18n="ct.formTitle">免费初步咨询</h3>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="name" data-i18n="ct.f.name">姓名</label>
+              <input type="text" id="name" required data-i18n-ph="ct.f.namePh" placeholder="您的称呼">
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="ct.f.email">邮箱</label>
+              <input type="email" id="email" required placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="country" data-i18n="ct.f.country">所在国家 / 地区</label>
+              <select id="country">
+                <option value="cn" data-i18n="ct.f.c1">中国</option>
+                <option value="kz" data-i18n="ct.f.c2">哈萨克斯坦</option>
+                <option value="sg" data-i18n="ct.f.c3">新加坡</option>
+                <option value="other" data-i18n="ct.f.c4">其他</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="phone" data-i18n="ct.f.phone">电话（选填）</label>
+              <input type="tel" id="phone" placeholder="+86 / +7">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="ct.f.msg">想对我们说的话</label>
+            <textarea id="message" required data-i18n-ph="ct.f.msgPh" placeholder="简单介绍您的情况与期望，我们会为您安排合适的顾问。"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="ct.f.submit">提交咨询</button>
+          <p class="form-note" data-i18n="ct.f.note">提交即表示您同意我们的隐私政策，您的信息仅用于本次咨询服务。</p>
+          <div class="form-success" id="formSuccess" data-i18n="ct.f.success">✓ 提交成功！顾问将在 24 小时内与您联系。</div>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div>
+        <div class="info-block reveal">
+          <h3>🏢 <span data-i18n="ct.offices">全球办公室</span></h3>
+          <div class="office">
+            <strong data-i18n="ct.o1t">中国 · 上海（总部）</strong>
+            <span data-i18n="ct.o1d">静安区南京西路 0000 号 XX 大厦 00 层</span>
+          </div>
+          <div class="office">
+            <strong data-i18n="ct.o2t">哈萨克斯坦 · 阿拉木图</strong>
+            <span data-i18n="ct.o2d">Bogenbay Batyra St. 00, Business Center, Almaty</span>
+          </div>
+          <div class="office">
+            <strong data-i18n="ct.o3t">新加坡</strong>
+            <span data-i18n="ct.o3d">1 Raffles Place, #00-00, Singapore</span>
+          </div>
+        </div>
+
+        <div class="info-block reveal">
+          <h3>✉️ <span data-i18n="ct.direct">直接联系</span></h3>
+          <div class="contact-line"><b>Email:</b> contact@venera-love.com</div>
+          <div class="contact-line"><b data-i18n="ct.cnLine">中国</b>: +86 400-000-0000</div>
+          <div class="contact-line"><b data-i18n="ct.kzLine">哈萨克斯坦</b>: +7 727 000 0000</div>
+          <div class="contact-line"><b data-i18n="ct.wa">WhatsApp / WeChat</b>: venera-global</div>
+        </div>
+
+        <div class="info-block reveal">
+          <h3>🕐 <span data-i18n="ct.hours">服务时间</span></h3>
+          <div class="contact-line" data-i18n="ct.h1">周一至周五 9:00 - 20:00（当地时区）</div>
+          <div class="contact-line" data-i18n="ct.h2">周末提供预约制咨询服务</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2 data-i18n="cta.title">您的下一段美好关系，从一个对话开始</h2>
+        <p data-i18n="cta.sub">预约免费初步咨询，专属顾问将在 24 小时内与您联系。</p>
+        <a href="#contactForm" class="btn btn-primary" data-i18n="cta.btn">立即咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">
+            <span class="brand-mark">V</span>
+            <span>
+              <span class="brand-name" data-i18n="brand.name">VENERA 缘启国际</span>
+              <span class="brand-tag" data-i18n="brand.tag">GLOBAL MATCHMAKING</span>
+            </span>
+          </div>
+          <p class="footer-about" data-i18n="footer.about">全球高端婚恋交友服务机构，以真诚、专业与隐私保护为本，让世界各地的真心相遇。</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.company">公司</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+            <li><a href="services.html" data-i18n="nav.services">产品服务</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">联系方式</h4>
+          <ul>
+            <li>contact@venera-love.com</li>
+            <li>+86 400-000-0000</li>
+            <li>+7 727 000 0000</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.global">全球办公室</h4>
+          <ul>
+            <li data-i18n="footer.office1">中国 · 上海（总部）</li>
+            <li data-i18n="footer.office2">哈萨克斯坦 · 阿拉木图</li>
+            <li data-i18n="footer.office3">新加坡</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2026 VENERA 缘启国际 版权所有</span>
+        <span>
+          <a href="#" data-i18n="footer.privacy">隐私政策</a> ·
+          <a href="#" data-i18n="footer.terms">服务条款</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
